@@ -1,0 +1,25 @@
+:root {
+	--previewWidth: 200px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+	color: var(--primaryText);
+}
+
+html,
+body,
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+#model-viewer {
+	height: 100%;
+	width: 100%;
+	--poster-color: transparent;
+	background-color: black;
+}

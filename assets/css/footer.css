@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+
+	color: var(--secondaryText);
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background-color: var(--primaryBackground);
+}
+
+.menuItem {
+	margin-right: 5px;
+	height: 25px;
+	margin-top: 2px;
+	padding: 0px 10px;
+	float: left;
+	border-radius: 5px;
+}
+
+.menuItem img {
+	height: 18px;
+	vertical-align: middle;
+}
+
+.firstItem {
+	margin-left: 15px !important;
+}
+
+input.menuItem, a.menuItem, p.menuItem {
+	margin: 0px 20px 0px 0px;
+	padding: 0px;
+	height: 29px;
+	line-height: 29px;
+}
+
+.lastItem {
+	float: right;
+}
+
+.underlined {
+	text-decoration: underline;
+}

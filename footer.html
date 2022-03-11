@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="color-scheme" content="light dark" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link href="./assets/css/colors.css" rel="stylesheet" />
+		<link href="./assets/css/footer.css" rel="stylesheet" />
+	</head>
+	<body>
+		<p title="Latest Log" id="logLabel" class="menuItem firstItem">Status: idle</p>
+
+		<p class="menuItem lastItem">Copyright &copy; 2022 DieFriiks</p>
+		<p class="menuItem lastItem"></p>
+		<a class="menuItem lastItem underlined" onclick="sendAction('showImprint')">Impressum</a>
+		<a class="menuItem lastItem underlined" onclick="sendAction('showDataPrivacy')">Datenschutz</a>
+		<p class="menuItem lastItem"></p>
+		<input title="Timeline Zoom (50)" class="menuItem lastItem" onchange="zoom(this.value)" type="range" min="1" max="100" value="50" id="zoom">
+		<script src="./assets/js/footer.js"></script>
+	</body>
+</html>

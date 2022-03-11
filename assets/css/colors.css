@@ -1,0 +1,21 @@
+:root {
+	--primaryBackground: #f2f2f7ff;
+	--secondaryBackground: #ffffffff;
+	--tertiaryBackground: #f2f2f7ff;
+	--primaryText: #000000ff;
+	--secondaryText: #3c3c4399;
+	--tintColor: #ff3b30ff;
+	--borderColor: #3c3c4349;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primaryBackground: #000000ff;
+		--secondaryBackground: #1c1c1eff;
+		--tertiaryBackground: #2c2c2eff;
+		--primaryText: #ffffffff;
+		--secondaryText: #ebebf599;
+		--tintColor: #ff453aff;
+		--borderColor: #54545899;
+	}
+}
