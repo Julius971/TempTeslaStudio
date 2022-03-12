@@ -10,6 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+function showPopup(url) {
+    window.parent.postMessage({'action': "showPopup", content: url}, "*");
+}
+
 function zoom(value) {
     document.getElementById("zoom").title = "Timeline Zoom (" + value + ")";
     window.parent.postMessage({'action': "zoom", 'content': value}, "*");

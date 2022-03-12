@@ -6,10 +6,12 @@
 	--secondaryText: #3c3c4399;
 	--tintColor: #ff3b30ff;
 	--borderColor: #3c3c4349;
+	--alphaBackground: #ffffffB3;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
+		--alphaBackground: #000000B3;
 		--primaryBackground: #000000ff;
 		--secondaryBackground: #1c1c1eff;
 		--tertiaryBackground: #2c2c2eff;

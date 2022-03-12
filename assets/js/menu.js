@@ -2,6 +2,10 @@ function sendAction(action) {
     window.parent.postMessage({'action': action}, "*");
 }
 
+function showPopup(url) {
+    window.parent.postMessage({'action': "showPopup", content: url}, "*");
+}
+
 function openFile() {
     document.getElementById("hiddenUpload").click();
 }

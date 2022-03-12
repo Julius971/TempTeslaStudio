@@ -16,6 +16,7 @@
 	-o-user-drag: none;
 
 	color: var(--primaryText);
+	font-family: 'Open Sans', sans-serif;
 }
 
 :root {

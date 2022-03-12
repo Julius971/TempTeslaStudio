@@ -20,10 +20,10 @@
 		<button title="Stop" class="menuItem" onclick="sendAction('stopSong')"><img src="./assets/img/stop.png" /></button>
 
 		<p class="menuItem"></p>
-		<button title="Open FAQ" class="menuItem" onclick="sendAction('showFAQ')"><img src="./assets/img/faq.png" /></button>
-		<button title="Open About Us" class="menuItem" onclick="sendAction('showTeam')"><img src="./assets/img/team.png" /></button>
-		<button title="Open Changelog" class="menuItem" onclick="sendAction('showChangelog')"><img src="./assets/img/changelog.png" /></button>
-		<button title="Open Send Feedback" class="menuItem" onclick="sendAction('showFeedback')"><img src="./assets/img/feedback.png" /></button>
+		<button title="Open FAQ" class="menuItem" onclick="showPopup('./static/faq.html')"><img src="./assets/img/faq.png" /></button>
+		<button title="Open About Us" class="menuItem" onclick="showPopup('./static/team.html')"><img src="./assets/img/team.png" /></button>
+		<button title="Open Changelog" class="menuItem" onclick="showPopup('./static/changelog.html')"><img src="./assets/img/changelog.png" /></button>
+		<button title="Open Send Feedback" class="menuItem" onclick="showPopup('./static/feedback.html')"><img src="./assets/img/feedback.png" /></button>
 
 		<input type="file" id="hiddenUpload" accept=".fseq" />
 		<script src="./assets/js/menu.js"></script>

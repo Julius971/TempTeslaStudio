@@ -12,8 +12,8 @@
 
 		<p class="menuItem lastItem">Copyright &copy; 2022 DieFriiks</p>
 		<p class="menuItem lastItem"></p>
-		<a class="menuItem lastItem underlined" onclick="sendAction('showImprint')">Impressum</a>
-		<a class="menuItem lastItem underlined" onclick="sendAction('showDataPrivacy')">Datenschutz</a>
+		<a class="menuItem lastItem underlined" onclick="showPopup('./static/imprint.html')">Impressum</a>
+		<a class="menuItem lastItem underlined" onclick="showPopup('./static/dataPrivacy.html')">Datenschutz</a>
 		<p class="menuItem lastItem"></p>
 		<input title="Timeline Zoom (50)" class="menuItem lastItem" onchange="zoom(this.value)" type="range" min="1" max="100" value="50" id="zoom">
 		<script src="./assets/js/footer.js"></script>
