@@ -20,7 +20,7 @@
 
 :root {
 	--tWidth: 5000px;
-	--tHeight: 5000px;
+	--tHeight: 500px;
 }
 
 html,
@@ -42,8 +42,7 @@ canvas {
 	top: 0;
 	left: 0;
 	z-index: 1000;
-	background: linear-gradient(90deg, #e66465, #9198e5);
-	/*background-color: var(--secondaryBackground);*/
+	background-color: var(--secondaryBackground);
 }
 
 #prefix {
@@ -53,8 +52,7 @@ canvas {
 	margin-top: -4px;
 	left: 0px;
 	z-index: 900;
-	background: linear-gradient(#e66465, #9198e5);
-	/*background-color: var(--secondaryBackground);*/
+	background-color: var(--secondaryBackground);
 }
 
 #timeline {
@@ -64,8 +62,7 @@ canvas {
 	position: absolute;
 	top: 150px;
 	left: 100px;
-	background: linear-gradient(-45deg, #e66465, #9198e5);
-	/*background-color: var(--tertiaryBackground);*/
+	background-color: var(--tertiaryBackground);
 }
 
 canvas::-webkit-scrollbar,
